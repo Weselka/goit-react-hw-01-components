@@ -59,6 +59,6 @@ export const TransactionHistory = ({ items }) => {
   );
 };
 
-Profile.propTypes = {
+TransactionHistory.propTypes = {
   id: PropTypes.string.isRequired,
 };

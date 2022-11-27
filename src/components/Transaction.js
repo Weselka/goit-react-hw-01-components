@@ -31,7 +31,7 @@ export const Transaction = ({ item: { type, amount, currency } }) => {
   );
 };
 
-Profile.propTypes = {
+Transaction.propTypes = {
   type: PropTypes.string.isRequired,
   amount: PropTypes.string.isRequired,
   currency: PropTypes.string.isRequired,
