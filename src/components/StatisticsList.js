@@ -16,6 +16,6 @@ export const StatisticsList = ({ title, stats }) => {
   );
 };
 
-Profile.propTypes = {
+StatisticsList.propTypes = {
   id: PropTypes.string.isRequired,
 };
