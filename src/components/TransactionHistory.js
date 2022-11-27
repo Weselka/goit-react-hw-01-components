@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { Transaction } from './Transaction';
 
 export const TransactionHistory = ({ items }) => {
@@ -56,4 +57,8 @@ export const TransactionHistory = ({ items }) => {
       </table>
     </div>
   );
+};
+
+Profile.propTypes = {
+  id: PropTypes.string.isRequired,
 };
