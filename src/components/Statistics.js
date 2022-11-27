@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 export const Statistics = ({ stats: { label, percentage } }) => {
   return (
     <div>
@@ -5,4 +7,9 @@ export const Statistics = ({ stats: { label, percentage } }) => {
       <span class="percentage">{percentage}</span>
     </div>
   );
+};
+
+Profile.propTypes = {
+  label: PropTypes.string.isRequired,
+  percentage: PropTypes.number.isRequired,
 };
