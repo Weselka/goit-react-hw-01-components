@@ -10,7 +10,7 @@ export const Friend = ({ friend: { avatar, name, isOnline } }) => {
   );
 };
 
-Profile.propTypes = {
+Friend.propTypes = {
   avatar: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   isOnline: PropTypes.bool.isRequired,

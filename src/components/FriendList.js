@@ -13,6 +13,6 @@ export const FriendList = ({ friends }) => {
   );
 };
 
-Profile.propTypes = {
+FriendList.propTypes = {
   id: PropTypes.number.isRequired,
 };
