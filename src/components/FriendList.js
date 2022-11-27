@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { Friend } from './Friend';
 
 export const FriendList = ({ friends }) => {
@@ -10,4 +11,8 @@ export const FriendList = ({ friends }) => {
       ))}
     </ul>
   );
+};
+
+Profile.propTypes = {
+  id: PropTypes.number.isRequired,
 };
