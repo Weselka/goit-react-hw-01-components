@@ -5,6 +5,6 @@ export * from 'components/Heading/Heading.styled.js';
 export * from 'components/Profile/Profile';
 // export * from 'components/ForbesList/ForbesList.js';
 // export * from 'components/ForbesListItem/ForbesListItem.jsx';
-// export * from 'components/Statistics/Statistics.js';
-// export * from 'components/StatisticItem/StatisticItem.js';
+export * from 'components/Statistics/Statistics.js';
+export * from 'components/StatisticItem/StatisticItem.js';
 // export * from 'components/CryptoHistory/CryptoHistory.js';

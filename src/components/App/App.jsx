@@ -1,8 +1,8 @@
-import { Section, Container, Heading } from 'components';
+import { Section, Container } from 'components';
 
 import { Profile } from '../Profile/Profile';
-import { StatisticsList } from '../StatisticsList';
-import { FriendList } from '../FriendList';
+import { Statistics } from '../Statistics/Statistics';
+import { FriendList } from '../FriendList/FriendList';
 import { TransactionHistory } from '../TransactionHistory';
 import user from 'data/user.json';
 import data from 'data/data.json';
@@ -11,16 +11,20 @@ import transactions from 'data/transactions.json';
 
 export const App = () => {
   return (
-    <Section>
+    <>
+      <Profile profile={user} />
+      <Section>
+        <Container>
+          <Statistics title="Upload stats" stats={data} />
+        </Container>
+      </Section>
+
       <Container>
-        <Profile profile={user} />
-        <Heading marginBottom="50px" textAlign="center">
-          Upload stats
-        </Heading>
-        <StatisticsList title="Upload stats" stats={data} />
         <FriendList friends={friends} />;
+      </Container>
+      <Container>
         <TransactionHistory items={transactions} />;
       </Container>
-    </Section>
+    </>
   );
 };
