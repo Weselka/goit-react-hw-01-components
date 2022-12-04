@@ -18,7 +18,6 @@ export const App = () => {
           <Statistics title="Upload stats" stats={data} />
         </Container>
       </Section>
-
       <Container>
         <FriendList friends={friends} />;
       </Container>
