@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types';
-// import { StatisticItem } from '../StatisticItem/StatisticItem';
 import { StatisticItem } from 'components';
 import { StatisticsList, StatisticTitle } from './Statistics.styled';
 
