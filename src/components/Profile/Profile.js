@@ -26,15 +26,15 @@ export const Profile = ({
       <UserBox>
         <StatsBox>
           <StatsLabel>Followers</StatsLabel>
-          <StatsQuantity>{stats.followers}</StatsQuantity>
+          <StatsQuantity>{stats.followers.toLocaleString()}</StatsQuantity>
         </StatsBox>
         <StatsBox>
           <StatsLabel>Views</StatsLabel>
-          <StatsQuantity>{stats.views}</StatsQuantity>
+          <StatsQuantity>{stats.views.toLocaleString()}</StatsQuantity>
         </StatsBox>
         <StatsBox>
           <StatsLabel>Likes</StatsLabel>
-          <StatsQuantity>{stats.likes}</StatsQuantity>
+          <StatsQuantity>{stats.likes.toLocaleString()}</StatsQuantity>
         </StatsBox>
       </UserBox>
     </Card>
