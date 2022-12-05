@@ -7,4 +7,4 @@ export * from 'components/FriendList/FriendList.js';
 export * from 'components/FriendListItem/FriendListItem.js';
 export * from 'components/Statistics/Statistics.js';
 export * from 'components/StatisticItem/StatisticItem.js';
-// export * from 'components/CryptoHistory/CryptoHistory.js';
+export * from 'components/TransactionHistory/TransactionHistory.js';
