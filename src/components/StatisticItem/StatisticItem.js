@@ -8,7 +8,7 @@ import { getRandomHexColor } from '../helpers'
 
 export const StatisticItem = ({ stats: { label, percentage } }) => {
   return (
-    <StatisticBox backgroundColor={getRandomHexColor()}>
+    <StatisticBox>
       <StatisticLabel>{label}</StatisticLabel>
       <StatisticPercentage>{percentage}%</StatisticPercentage>
     </StatisticBox>
