@@ -1,5 +1,6 @@
 import styled from '@emotion/styled';
 
+
 export const LeaderBoardProfiles = styled.ul`
   width: ${props => props.theme.spacing(120)};
   border-radius: ${props => props.theme.spacing(3)};
@@ -8,3 +9,4 @@ export const LeaderBoardProfiles = styled.ul`
   display: grid;
   row-gap: ${props => props.theme.spacing(2)};
 `;
+

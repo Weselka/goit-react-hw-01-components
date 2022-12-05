@@ -25,6 +25,7 @@ export const Status = styled.span`
 export const Avatar = styled.img`
   width: 100px;
   border-radius: 10%;
+  margin-left: 8px;
   box-shadow: ${props => props.theme.shadows.medium};
 `;
 
